@@ -1,0 +1,19 @@
+# Python virtual environments
+.venv/
+__pycache__/
+*.py[cod]
+
+
+# OS files & Environment secrets
+.DS_Store
+.env
+
+#data
+data/
+
+# dataset
+sampurner_data/
+sampurner_saved/
+sampurner_telugu/
+sampurner_telugu_saved/
+*.arrow

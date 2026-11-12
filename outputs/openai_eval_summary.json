@@ -1,0 +1,24 @@
+{
+  "provider": "openai",
+  "model": "gpt-4o-mini",
+  "split": "test",
+  "sample_size": 500,
+  "seed": 42,
+  "demonstrations": 5,
+  "workers": 2,
+  "resumed_records": 496,
+  "api_failures": 0,
+  "parse_failures": 5,
+  "parse_issues": 5,
+  "elapsed_seconds": 3.9,
+  "metrics": {
+    "true_positive": 210,
+    "false_positive": 276,
+    "false_negative": 514,
+    "precision": 0.43209876543209874,
+    "recall": 0.2900552486187845,
+    "micro_f1": 0.3471074380165289
+  },
+  "predictions_file": "outputs/openai_eval.jsonl",
+  "summary_file": "outputs/openai_eval_summary.json"
+}

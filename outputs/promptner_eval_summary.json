@@ -1,0 +1,24 @@
+{
+  "provider": "sarvam",
+  "model": "sarvam-105b",
+  "split": "test",
+  "sample_size": 500,
+  "seed": 42,
+  "demonstrations": 5,
+  "workers": 1,
+  "resumed_records": 499,
+  "api_failures": 0,
+  "parse_failures": 6,
+  "parse_issues": 14,
+  "elapsed_seconds": 76.03,
+  "metrics": {
+    "true_positive": 192,
+    "false_positive": 181,
+    "false_negative": 532,
+    "precision": 0.514745308310992,
+    "recall": 0.26519337016574585,
+    "micro_f1": 0.3500455788514129
+  },
+  "predictions_file": "outputs/promptner_eval.jsonl",
+  "summary_file": "outputs/promptner_eval_summary.json"
+}
